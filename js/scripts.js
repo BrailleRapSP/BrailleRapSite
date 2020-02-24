@@ -248,7 +248,7 @@
 		var email = encodeURIComponent ($("#cemail").val());
         var message = encodeURIComponent ($("#cmessage").val());
 		
-		var url= "http://marsu.sgodin.com:8000/braillecontact/";
+		var url= "//marsu.sgodin.com:8000/braillecontact/";
         var data= "name=" + name + "&email=" + email + "&message=" + message; 
 		
 		var xmlhttp = new XMLHttpRequest();
